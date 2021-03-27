@@ -1,0 +1,128 @@
+.Trebuchet {
+    font-family: "Trebuchet MS";
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  td {
+    background-color: black;
+    color: white;
+  }
+td,th{    text-align: center;
+}
+  .ui-input {
+    border: 1px solid #b8b5b5;
+    height: 25px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.mb-16px {
+    margin-bottom: 20px;
+}
+.t-center {
+
+
+    text-align: center;
+
+
+}
+.Submit {
+    padding-top: 1.4px;
+    margin-top: 5px !important;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    animation-name: black-to-white;
+    animation-duration: 0.3s;
+}
+
+.Submit:hover {
+    background-color: #000;
+    color: white;
+    animation-name: white-to-black;
+    animation-duration: 0.3s;
+}
+
+@keyframes black-to-white {
+    from {
+        background-color: black;
+    }
+
+    to {
+        background-color: white;
+    }
+}
+
+@keyframes white-to-black {
+    from {
+        background-color: white;
+    }
+
+    to {
+        background-color: black;
+    }
+}
+
+.center {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* input place holder color change for different type of browser */
+
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #909;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #909;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: gainsboro;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color:gainsboro;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: gainsboro;
+}
+
+::placeholder {
+    /* Most modern browsers support this now. */
+    color: gainsboro;
+}
+
+/* changing the color done */
