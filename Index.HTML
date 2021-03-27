@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <div class="center"> 
+    <h1 class="Trebuchet">Predict Your Gender & Nationality By Entring Your Name</h1>
+    <input type="text" placeholder="Ayesha" id="Name" class='mb-16px t-center ui-input'>
+    <button type="button" id="submit" class="Submit">SUBMIT</button>
+    <p class="Trebuchet" id="loader"></p>
+   <br><br>
+   <div id="info" style="display:none !important">
+   <table>
+       
+    <tr>
+      <th>Country</th>
+      <th>Confidence</th>
+      <th>Gender</th>
+      <th>Confidence</th>
+
+    </tr>
+    <tr>
+      <td id="countryName"></td>
+      <td id="probabilityNum">Maria Anders</td>
+      <td id="genderName">Maria Anders</td>
+      <td id="probabilityNum2">Maria Anders</td>
+    </tr>
+  </table></div>
+  
+</div></div>
+<script src="./JS/index.js"></script>
+</body>
+</html>
